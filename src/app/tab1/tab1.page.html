@@ -1,22 +1,56 @@
 <ion-header>
+  <!--
   <ion-toolbar>
     <ion-title>
       Inicio
     </ion-title>
   </ion-toolbar>
+  -->
+  <ion-toolbar>
+      <ion-button>
+          <ion-icon slot="icon-only" name="contact"></ion-icon>
+      </ion-button>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content>
     <ion-card class="welcome-card">
+      <!--
       <img src="/assets/shapes.svg" alt="" />
       <ion-card-header>
         <ion-card-subtitle>Empezamos!</ion-card-subtitle>
         <ion-card-title>Bienvendido a firstApp</ion-card-title>
       </ion-card-header>
+      -->
       <ion-card-content>
-        <p>Now that your app has been created, you'll want to start building out features and components. Check out some of the resources below for next steps.</p>
+        <ion-button>Default</ion-button>
+        <ion-button color="primary" fill="outline">Primary</ion-button>
+        <ion-button color="secondary" fill="clear">Secondary</ion-button>
+        <ion-button color="tertiary">Tertiary</ion-button>
+        <ion-button color="success">Success</ion-button>
+        <ion-button color="warning">Warning</ion-button>
+        <ion-button color="danger">Danger</ion-button>
+        <ion-button color="light">Light</ion-button>
+        <ion-button color="medium">Medium</ion-button>
+        <ion-button color="dark">Dark</ion-button>
+        <p>Iconos + button</p>
+        <ion-button>
+            <ion-icon slot="start" name="arrow-dropleft"></ion-icon>
+            Left Icon
+          </ion-button>
+          
+          <ion-button>
+            Right Icon
+            <ion-icon slot="end" name="play"></ion-icon>
+          </ion-button>
+          
+          <ion-button>
+            <ion-icon slot="icon-only" name="apps"></ion-icon>
+          </ion-button>
       </ion-card-content>
     </ion-card>
+    <!---
+    
     <ion-list lines="none">
       <ion-list-header>
         <ion-label>Resources</ion-label>
@@ -38,4 +72,5 @@
         <ion-label>Theme Your App</ion-label>
       </ion-item>
     </ion-list>
+    -->
 </ion-content>
