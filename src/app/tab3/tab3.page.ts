@@ -7,6 +7,17 @@ import { Component } from '@angular/core';
 })
 export class Tab3Page {
 
+  lista : Array <any> = [
+    {
+      titulo: "Perro",
+      color: "#444"
+    },
+    {
+      titulo: "Gato",
+      color: "#999"
+    }
+  ]
+
   constructor() {}
 
 }
