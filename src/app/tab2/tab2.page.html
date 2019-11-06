@@ -7,9 +7,21 @@
 </ion-header>
 
 <ion-content>
-  <h2>Soy la segunda pagina</h2>
   
-  <ion-button>Boton </ion-button>
-  <!--<ion-button href="#">Boton con enlace</a></ion-button>-->
+ <!-- <ion-button>Boton </ion-button>
+  <ion-button href="#">Boton con enlace</a></ion-button>-->
+
+  <p>Ejemplo ir a otra pagina</p>
+  <ion-button expand = "full" routerLink="/masinfo" color = "danger">
+    navegacion con linkRouter
+  </ion-button>
+
+  <ion-button expand = "full" color = "success" (click)="routingViaAngular()">
+      navegacion con Router
+    </ion-button>
+
+    <ion-button expand = "full" color = "primary" (click)="routingViaNavParams()">
+        navegacion con navCtrl
+      </ion-button>
 
 </ion-content>
